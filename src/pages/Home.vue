@@ -38,7 +38,7 @@ const searchResults = ref<InstanceType<typeof SearchResults> | null>(null)
 
 // 修改宽度控制相关的变量
 const isDragging = ref(false)
-const rightPanelRatio = ref(0.25) // 默认比例 25%
+const rightPanelRatio = ref(0.40) // 默认比例 40%
 const MIN_RATIO = 0.25 // 最小比例 25%
 const MAX_RATIO = 0.75 // 最大比例 75%
 
