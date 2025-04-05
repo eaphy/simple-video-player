@@ -288,7 +288,7 @@ const handleEnterPlay = () => {
                 v-model="videoUrl"
                 @keyup.enter="handleEnterPlay"
                 type="text"
-                placeholder="请输入视频链接"
+                placeholder="请输入m3u8视频链接"
                 class="flex-1 p-2 rounded border-[0.5px] border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 text-text-light dark:text-text-dark focus:outline-none focus:border-primary-light dark:focus:border-primary-dark"
               />
               <button
